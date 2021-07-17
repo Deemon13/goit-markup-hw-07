@@ -1,0 +1,35 @@
+%header {
+  margin: 0;
+  padding: 0;
+  font-size: $main-text-size;
+}
+
+%paragraph {
+  margin: 0;
+  padding: 0;
+  font-size: $main-text-size;
+}
+
+%text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: $main-text-letter-spacing;
+  color: $main-color-dark;
+}
+
+%image {
+  display: block;
+}
+
+%list {
+  margin: 0;
+  padding: 0;
+  font-size: $main-text-size;
+  list-style: none;
+}
+
+%link {
+  font-size: $main-text-size;
+  text-decoration: none;
+  color: $main-color-dark;
+}
