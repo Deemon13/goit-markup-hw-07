@@ -344,69 +344,69 @@ textarea:focus {
 
 /* TEAM */
 
-.team-section {
+/* .team-section {
   text-align: center;
   background-color: var(--background-color-light);
-}
+} */
 
 /* .team-section-title {
   margin-bottom: 50px;
 } */
 
-.team-section-list {
+/* .team-section-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-}
+} */
 
-.team-section-list-item {
+/* .team-section-list-item {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
-}
+} */
 
-.team-section-list-card {
+/* .team-section-list-card {
   margin: 0 auto;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--main-color-light);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
+} */
 
-.team-section-list-card-text-container {
+/* .team-section-list-card-text-container {
   padding: 30px 0;
   font-size: var(--secondary-text-size);
   line-height: 1.19;
-}
+} */
 
-.team-section-list-card-title {
+/* .team-section-list-card-title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: var(--secondary-text-size);
   line-height: 1.19;
-}
+} */
 
-.team-section-list-card-text {
+/* .team-section-list-card-text {
   margin-bottom: 16px;
   color: var(--secondary-color);
-}
+} */
 
-.card-social-list {
+/* .card-social-list {
   display: flex;
   justify-content: center;
-}
+} */
 
-.card-social-list-item {
+/* .card-social-list-item {
   width: 44px;
   height: 44px;
-}
+} */
 
-.card-social-list-item:not(:last-child) {
+/* .card-social-list-item:not(:last-child) {
   margin-right: 10px;
-}
+} */
 
-.card-social-list-link {
+/* .card-social-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -416,13 +416,13 @@ textarea:focus {
   fill: #afb1b8;
   transition: background-color var(--main-transition-duration) var(--main-transition-function),
     fill var(--main-transition-duration) var(--main-transition-function);
-}
+} */
 
-.card-social-list-link:hover,
+/* .card-social-list-link:hover,
 .card-social-list-link:focus {
   background-color: var(--accent-color);
   fill: var(--main-color-light);
-}
+} */
 
 /* CLIENTS */
 
