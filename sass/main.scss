@@ -9,6 +9,7 @@
 @import './components/common/logo';
 @import './components/common/title';
 @import './components/common/button';
+@import './components/common/filter';
 @import './components/common/social';
 @import './components/common/backdrop';
 @import './components/common/closer';
@@ -20,6 +21,10 @@
 @import './components/main/team';
 @import './components/main/teammate';
 @import './components/main/clients';
+@import './components/portfolio/filters';
+@import './components/portfolio/collection';
+@import './components/portfolio/product';
+@import './components/portfolio/overlay';
 @import './components/footer/footer';
 @import './components/footer/adress';
 @import './components/modal/modal';
