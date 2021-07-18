@@ -2,6 +2,7 @@
 @import './utils/font-variables';
 @import './utils/animation-parameters';
 @import './utils/placeholders';
+@import './utils/visually-hidden';
 @import './components/common/section';
 @import './components/common/container';
 @import './components/common/logo';
@@ -10,3 +11,4 @@
 @import './components/header/header';
 @import './components/header/menu';
 @import './components/header/contacts';
+@import './components/main/features';

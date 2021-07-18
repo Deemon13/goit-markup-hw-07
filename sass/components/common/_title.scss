@@ -1,3 +1,9 @@
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
 .title--hero {
   @extend %header;
   margin: 0 auto 30px;
@@ -8,4 +14,9 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: $main-color-light;
+}
+
+.title--section {
+  @extend %header;
+  @extend .title;
 }
