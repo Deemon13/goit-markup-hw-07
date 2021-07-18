@@ -1,6 +1,7 @@
 .title--hero, .logo, .menu__link, .contacts__link, .button {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  font-size: 14px;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -8,13 +9,10 @@
 .title--hero {
   margin: 0;
   padding: 0;
-  font-size: 14px;
 }
 
 .logo, .menu__link, .contacts__link {
-  font-size: 14px;
   text-decoration: none;
-  color: #212121;
 }
 
 .button {
@@ -24,7 +22,6 @@
 .menu__list, .contacts {
   margin: 0;
   padding: 0;
-  font-size: 14px;
   list-style: none;
 }
 
@@ -39,8 +36,8 @@
   min-height: 600px;
   text-align: center;
   background-color: #c4c4c4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../../images/studio/background-hero.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../../images/studio/background-hero.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/studio/background-hero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/studio/background-hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
