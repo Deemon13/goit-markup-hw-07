@@ -115,9 +115,9 @@ textarea:focus {
   margin: -1px;
 } */
 
-.overlay-container {
+/* .overlay-container {
   position: relative;
-}
+} */
 
 /* HEADER */
 
@@ -302,29 +302,29 @@ textarea:focus {
 
 /* SERVICES */
 
-.services-section {
+/* .services-section {
   padding-top: 47px;
   text-align: center;
-}
+} */
 
-.services-section-title {
+/* .services-section-title {
   margin-bottom: 50px;
-}
+} */
 
-.services-section-list {
+/* .services-section-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-}
+} */
 
-.services-section-list-item {
+/* .services-section-list-item {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
-}
+} */
 
-.services-title-container {
+/* .services-title-container {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -333,14 +333,14 @@ textarea:focus {
   text-align: center;
   background-color: var(--background-color-dark);
   opacity: 0.8;
-}
+} */
 
-.services-title {
+/* .services-title {
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.14;
   color: var(--main-color-light);
-}
+} */
 
 /* TEAM */
 
@@ -349,9 +349,9 @@ textarea:focus {
   background-color: var(--background-color-light);
 }
 
-.team-section-title {
+/* .team-section-title {
   margin-bottom: 50px;
-}
+} */
 
 .team-section-list {
   display: flex;
@@ -430,9 +430,9 @@ textarea:focus {
   text-align: center;
 }
 
-.client-section-title {
+/* .client-section-title {
   margin-bottom: 50px;
-}
+} */
 
 .client-section-list {
   display: flex;

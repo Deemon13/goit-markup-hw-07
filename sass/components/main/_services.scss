@@ -1,0 +1,32 @@
+.services {
+  @extend %list;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.services__item {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
+
+.services__container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 27px 15px;
+  width: 100%;
+  text-align: center;
+  background-color: $background-color-dark;
+  opacity: 0.8;
+}
+
+.services__title {
+  @extend %header;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.14;
+  color: $main-color-light;
+}
