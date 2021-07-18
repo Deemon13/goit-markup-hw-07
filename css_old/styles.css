@@ -74,13 +74,13 @@ textarea:focus {
   color: var(--main-color-dark);
 } */
 
-.btn {
+/* .btn {
   font-family: inherit;
   cursor: pointer;
   color: var(--main-color-dark);
-}
+} */
 
-.modal-subscribe-button {
+/* .modal-subscribe-button {
   padding: 10px;
   min-width: 200px;
   border: none;
@@ -94,12 +94,12 @@ textarea:focus {
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color var(--main-transition-duration) var(--main-transition-function);
-}
+} */
 
-.modal-subscribe-button:hover,
+/* .modal-subscribe-button:hover,
 .modal-subscribe-button:focus {
   background-color: var(--accent-color-hover);
-}
+} */
 
 .section-title {
   font-weight: 700;
@@ -228,7 +228,7 @@ textarea:focus {
 
 /* HERO */
 
-.hero-section {
+/* .hero-section {
   margin: 0 auto;
   padding: 200px 0;
   max-width: 1600px;
@@ -240,13 +240,13 @@ textarea:focus {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
-.hero-content-container {
+/* .hero-content-container {
   text-align: center;
-}
+} */
 
-.hero-section-title {
+/* .hero-section-title {
   margin: 0 auto 30px;
   max-width: 610px;
   text-transform: uppercase;
@@ -255,7 +255,7 @@ textarea:focus {
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--main-color-light);
-}
+} */
 
 /* FEATURES */
 
