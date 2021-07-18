@@ -9,6 +9,13 @@
   color: $secondary-color-dark;
 }
 
+.logo--alt {
+  @extend .logo;
+  margin-right: 0;
+  margin-bottom: 20px;
+  color: $main-color-light;
+}
+
 .logo__accent {
   color: $accent-color;
 }

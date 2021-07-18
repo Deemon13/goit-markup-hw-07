@@ -30,3 +30,9 @@
     fill: $main-color-light;
   }
 }
+
+.social__link--footer {
+  @extend .social__link;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: $main-color-light;
+}

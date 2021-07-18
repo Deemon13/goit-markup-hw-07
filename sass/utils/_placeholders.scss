@@ -28,6 +28,11 @@
   cursor: pointer;
 }
 
+%input {
+  @extend %text;
+  outline: none;
+}
+
 %image {
   display: block;
 }

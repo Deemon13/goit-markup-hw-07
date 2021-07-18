@@ -19,3 +19,22 @@
     background-color: $hover-accent-color;
   }
 }
+
+.button__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button__text {
+  margin-right: 10px;
+}
+
+.button__iconwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  fill: $main-color-light;
+}

@@ -1,0 +1,30 @@
+.adress__link {
+  @extend %link;
+  display: block;
+  margin-bottom: 9px;
+  font-style: normal;
+  line-height: 1.71;
+  color: $main-color-light;
+  transition: color $main-transition-duration $main-transition-function;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.adress__list {
+  @extend %list;
+}
+
+.adress__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.adress__link--tel,
+.adress__link--mail {
+  @extend .adress__link;
+  display: inline;
+  margin-bottom: 0;
+  color: $secondary-color-transp;
+}
