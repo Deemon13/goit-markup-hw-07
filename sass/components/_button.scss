@@ -1,10 +1,4 @@
-.btn {
-  font-family: inherit;
-  cursor: pointer;
-  color: var(--main-color-dark);
-}
-
-.modal-subscribe-button {
+.button {
   padding: 10px;
   min-width: 200px;
   border: none;
@@ -18,9 +12,9 @@
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color var(--main-transition-duration) var(--main-transition-function);
-}
 
-.modal-subscribe-button:hover,
-.modal-subscribe-button:focus {
-  background-color: var(--accent-color-hover);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color-hover);
+  }
 }

@@ -71,6 +71,24 @@ ul {
   color: var(--main-color-dark);
 }
 
+.button-base {
+  font-family: inherit;
+  cursor: pointer;
+  color: var(--main-color-dark);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 .header {
   border-bottom: 1px solid var(--header-color-border);
 }
@@ -185,16 +203,33 @@ ul {
   margin-right: 10px;
 }
 
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
+.hero {
+  margin: 0 auto;
+  padding: 200px 0;
+  max-width: 1600px;
+  min-height: 600px;
+  text-align: center;
+  background-color: #c4c4c4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/studio/background-hero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/studio/background-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero__container {
+  text-align: center;
+}
+
+.hero__title {
+  margin: 0 auto 30px;
+  max-width: 610px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--main-color-light);
 }
 
 .logo {
@@ -216,7 +251,7 @@ ul {
   color: var(--main-color-dark);
 }
 
-.modal-subscribe-button {
+.button {
   padding: 10px;
   min-width: 200px;
   border: none;
@@ -234,8 +269,7 @@ ul {
   transition: background-color var(--main-transition-duration) var(--main-transition-function);
 }
 
-.modal-subscribe-button:hover,
-.modal-subscribe-button:focus {
+.button:hover, .button:focus {
   background-color: var(--accent-color-hover);
 }
 /*# sourceMappingURL=main.css.map */
