@@ -5,8 +5,15 @@
   font-size: 26px;
   line-height: 1.19;
   color: var(--logo-color);
-}
 
-.logo__accent {
-  color: var(--accent-color);
+  &--footer {
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    color: var(--main-color-light);
+  }
+
+  &__accent {
+    color: var(--accent-color);
+  }
 }
