@@ -509,66 +509,64 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="closer" type="button" data-modal-close>
-          <svg class="closer__icon" width="11" height="11">
+        <button class="modal__closer" type="button" data-modal-close>
+          <svg class="modal__icon" width="11" height="11">
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
-        <form name="purchase_form" autocomplete="on" class="modal__form">
-          <div class="modal__group" role="group" aria-labelledby="contacts-details">
-            <p id="contacts-details" class="modal__paragraph">
-              Оставьте свои данные, мы вам перезвоним
-            </p>
-            <div class="modal__container">
-              <label class="modal__label">
+        <form name="purchase_form" autocomplete="on" class="form">
+          <div class="form__group" role="group" aria-labelledby="contacts-details">
+            <p id="contacts-details" class="form__text">Оставьте свои данные, мы вам перезвоним</p>
+            <div class="form__container">
+              <label class="form__label">
                 Имя
-                <span class="modal__inputwrapper">
-                  <input class="modal__input" type="text" name="name" autofocus />
-                  <span class="modal__iconwrapper">
-                    <svg class="modal__icon" width="12" height="12">
+                <span class="form__inputwrapper">
+                  <input class="form__input" type="text" name="name" autofocus />
+                  <span class="form__iconwrapper">
+                    <svg class="form__icon" width="12" height="12">
                       <use href="./images/icons.svg#person-black"></use>
                     </svg>
                   </span>
                 </span>
               </label>
             </div>
-            <div class="modal__container">
-              <label class="modal__label">
+            <div class="form__container">
+              <label class="form__label">
                 Телефон
-                <span class="modal__inputwrapper">
+                <span class="form__inputwrapper">
                   <input
-                    class="modal__input"
+                    class="form__input"
                     type="tel"
                     name="phone-number"
                     pattern="[\+]*[1-9]{2}\s?[\(]*[0-9]{3}[\)]*\s?\d{3}[-]*\d{2}[-]*\d{2}"
                     title="+__(___)___-__-__"
                   />
-                  <span class="modal__iconwrapper">
-                    <svg class="modal__icon" width="13" height="13">
+                  <span class="form__iconwrapper">
+                    <svg class="form__icon" width="13" height="13">
                       <use href="./images/icons.svg#phone-black"></use>
                     </svg>
                   </span>
                 </span>
               </label>
             </div>
-            <div class="modal__container">
-              <label class="modal__label">
+            <div class="form__container">
+              <label class="form__label">
                 Почта
-                <span class="modal__inputwrapper">
-                  <input class="modal__input" type="email" name="email" />
-                  <span class="modal__iconwrapper">
-                    <svg class="modal__icon" width="15" height="12">
+                <span class="form__inputwrapper">
+                  <input class="form__input" type="email" name="email" />
+                  <span class="form__iconwrapper">
+                    <svg class="form__icon" width="15" height="12">
                       <use href="./images/icons.svg#email-black"></use>
                     </svg>
                   </span>
                 </span>
               </label>
             </div>
-            <div class="modal__container--comments">
-              <label class="modal__label">
+            <div class="form__container form__container--comments">
+              <label class="form__label">
                 Комментарий
                 <textarea
-                  class="modal__textarea"
+                  class="form__textarea"
                   name="feedback"
                   placeholder="Введите текст"
                 ></textarea>
@@ -576,23 +574,23 @@
             </div>
           </div>
 
-          <div class="modal__group--checkbox" role="group" aria-labelledby="subcscribe-offer">
-            <p id="subcscribe-offer" class="modal__paragraph visually-hidden">Условия подписки</p>
+          <div class="form__group--checkbox" role="group" aria-labelledby="subcscribe-offer">
+            <p id="subcscribe-offer" class="form__text visually-hidden">Условия подписки</p>
 
-            <label class="modal__label--checkbox">
+            <label class="form__label--checkbox">
               <input
-                class="modal__checkbox visually-hidden"
+                class="form__checkbox visually-hidden"
                 type="checkbox"
                 name="checked"
                 value="agreed"
               />
-              <span class="modal__wrapper--checkbox">
-                <svg class="modal__check" width="11" height="8">
+              <span class="form__wrapper--checkbox">
+                <svg class="form__check" width="11" height="8">
                   <use href="./images/icons.svg#checked"></use>
                 </svg> </span
-              ><span class="modal__wrapper--text"
+              ><span class="form__wrapper--text"
                 >Соглашаюсь с рассылкой и принимаю&nbsp;<a
-                  class="modal__link"
+                  class="form__link link"
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -602,8 +600,8 @@
             </label>
           </div>
 
-          <div class="modal__container--submit">
-            <button type="submit" class="button">Отправить</button>
+          <div class="form__container--submit">
+            <button type="submit" class="button button-base">Отправить</button>
           </div>
         </form>
       </div>
