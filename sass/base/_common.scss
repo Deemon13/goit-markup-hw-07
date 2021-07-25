@@ -1,38 +1,28 @@
 .section {
   padding: 94px 0;
-}
-
-.section--features {
-  padding-bottom: 47px;
   text-align: center;
-}
 
-.section--services {
-  padding-top: 47px;
-  text-align: center;
-}
+  &--features {
+    padding-bottom: 47px;
+  }
 
-.section--team {
-  text-align: center;
-  background-color: var(--background-color-light);
-}
+  &--services {
+    padding-top: 47px;
+  }
 
-.section--clients {
-  text-align: center;
-}
-
-.section--collection {
-  text-align: center;
+  &--team {
+    background-color: var(--background-color-light);
+  }
 }
 
 .container {
   margin: 0 auto;
   padding: 0 15px;
   max-width: 1200px;
-}
 
-.container--footer {
-  display: flex;
+  &--footer {
+    display: flex;
+  }
 }
 
 .list {

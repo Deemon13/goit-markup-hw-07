@@ -1,13 +1,13 @@
 .header {
   border-bottom: 1px solid var(--header-color-border);
-}
 
-.header__container {
-  display: flex;
-  align-items: center;
-  padding: 24px 0 25px;
-}
+  &__container {
+    display: flex;
+    align-items: center;
+    padding: 24px 0 25px;
+  }
 
-.header__contacts {
-  margin-left: auto;
+  &__contacts {
+    margin-left: auto;
+  }
 }

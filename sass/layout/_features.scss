@@ -3,33 +3,33 @@
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-}
 
-.features__item {
-  margin-top: 30px;
-  margin-left: 30px;
-  flex-basis: calc((100% - 120px) / 4);
-  text-align: left;
-}
+  &__item {
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-basis: calc((100% - 120px) / 4);
+    text-align: left;
+  }
 
-.features__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  height: 120px;
-  border-radius: 4px;
-  background-color: var(--background-color-light);
-}
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: var(--background-color-light);
+  }
 
-.features__title {
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  font-weight: 700;
-  line-height: 1.14;
-}
+  &__title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.14;
+  }
 
-.features__text {
-  line-height: 1.71;
-  color: var(--secondary-color-light);
+  &__text {
+    line-height: 1.71;
+    color: var(--secondary-color-light);
+  }
 }
